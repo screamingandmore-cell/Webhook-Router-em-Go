@@ -16,5 +16,5 @@ Este repositório foi construído com o objetivo estrito de treinar os conceitos
 
 1. Clone o repositório na sua máquina.
 2. Abra o terminal na pasta do projeto.
-3. Execute o comando
+3. Execute o comando:
 `go run main.go`
