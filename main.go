@@ -38,6 +38,7 @@ type PayloadInstagram struct {
 	PostRespondido string
 }
 
+// interface
 type Padronizador interface {
 	GerarJSON() string
 }
