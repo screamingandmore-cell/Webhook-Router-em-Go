@@ -6,16 +6,16 @@ import (
 
 func main() {
 	zap := PayloadWhatsApp{MensagemRecebida: MensagemRecebida{
-		Telefone: "(55)9999-9999",
-		Texto:    "ALguma coisa do sistema ",
+		Telefone: "55359999-9999",
+		Texto:    "Olá, bom dia! Gostaria de agendar uma avaliação para implante. Vocês têm horário para sexta?",
 	},
-		AudioLink: "Não sei oque colocaraqui",
+		AudioLink: "https://storage.aws.com/api-media/audio_lead_776655.ogg",
 	}
 
 	insta := PayloadInstagram{MensagemRecebida: MensagemRecebida{
-		Telefone: "(55)8888-8888",
-		Texto:    "Mais alguma coisa de sistema"},
-		PostRespondido: "O posto dahora que nois feis",
+		Telefone: "55358888-8888",
+		Texto:    "Gostei muito desse apartamento! Qual seria o valor mínimo de entrada?"},
+		PostRespondido: "https://www.instagram.com/p/C2xY_abc123/ (Campanha_Lançamento_Centro)",
 	}
 
 	padronizar := []Padronizador{zap, insta}
